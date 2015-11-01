@@ -5,9 +5,6 @@ GENERAL STYLES
 
 
 
-
-
-
 /*****************************************
 HEADER MASTHEAD
 *****************************************/
@@ -20,4 +17,46 @@ HEADER MASTHEAD
   max-width: 100%;
   max-height: 100%
   margin: 0 auto;
+  box-shadow: 0px 6px 20px grey;
 }
+
+
+/*****************************************
+MAIN CONTENT
+*****************************************/
+
+/* intro text */
+.main-content .intro-text {
+  text-align: center;
+  margin: 30px;
+  font-weight: 700;
+}
+
+.intro-text-container {
+  max-width: 992px;
+  margin: 0 auto;
+}
+
+
+
+/* consultoria and marketplace */
+
+.consultoria-container, .consultoria-container img {
+/*
+  background-image:url("../images/Business-People-Doing-Yoga-Small.gif");
+  //background-repeat: no-repeat;
+  //background-position: center;
+  background-size: contain;
+*/
+}
+
+.marketplace-container, .marketplace-container img {
+
+/*
+  background-image: url("../images/worldmap.gif");
+  //background-repeat: no-repeat;
+  //background-position: center;
+  //background-size: contain;
+*/
+}
+
