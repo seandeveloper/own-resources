@@ -2,64 +2,111 @@
 GENERAL STYLES
 *****************************************/
 
-
-
+.noPadding {
+  padding: 0;
+}
 
 /*****************************************
 HEADER MASTHEAD
 *****************************************/
 
-.masthead, .logo-header {
+.masthead,
+.logo-header {
   margin: 0 auto;
 }
 .masthead img {
   display: block;
-  max-width: 100%;
-  max-height: 100%
+  max-width: 300;
+  max-height: 200px;
   margin: 0 auto;
-  box-shadow: 0px 6px 20px grey;
+  margin: 0 auto;
 }
-
+.masthead {
+  background-color: #232439;
+}
 
 /*****************************************
 MAIN CONTENT
 *****************************************/
 
-/* intro text */
+
+/* INTRO TEXT */
+
 .main-content .intro-text {
   text-align: center;
   margin: 30px;
   font-weight: 700;
 }
-
 .intro-text-container {
   max-width: 992px;
   margin: 0 auto;
 }
 
+/* SERVICES */
 
-
-/* consultoria and marketplace */
-
-.consultoria-container, .consultoria-container img {
-/*
-  background-image:url("../images/Business-People-Doing-Yoga-Small.gif");
-  //background-repeat: no-repeat;
-  //background-position: center;
-  background-size: contain;
-*/
+.services {
+  text-align: center;
+}
+.services img {
+  width: 400px;
+  height: 300px;
+}
+.services-one,
+.services-two {
+  width: 400;
+  height: 300;
+  margin: auto;
+  position: relative;
+}
+.services .services-one span.text-content,
+.services-two span.text-content {
+  background: rgba(0, 0, 0, 0.35);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 300px;
+  left: 0;
+  top: 0;
+  width: 400px;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 2rem;
+}
+.services .services-one:hover span.text-content,
+.services .services-two:hover span.text-content {
+  opacity: 1;
 }
 
-.marketplace-container, .marketplace-container img {
-
-/*
-  background-image: url("../images/worldmap.gif");
-  //background-repeat: no-repeat;
-  //background-position: center;
-  //background-size: contain;
-*/
-}
-
-/*****************************************
-MAIN CONTENT
+/******************************************
+FOOTER
 *****************************************/
+
+footer {
+  margin: 50px auto;
+  text-align: center;
+}
+footer ul img {
+  width: 40px;
+}
+.social-icons li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 18px;
+}
+.social-icons li a img {
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+.social-icons li a img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
