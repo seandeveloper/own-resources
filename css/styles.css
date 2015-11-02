@@ -58,6 +58,8 @@ MAIN CONTENT
   margin: auto;
   position: relative;
   display: inline-block;
+  border-radius: 7px;
+  overflow: hidden
 }
 .services .services-one span.text-content,
 .services-two span.text-content {
