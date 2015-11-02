@@ -66,7 +66,6 @@ MAIN CONTENT
     margin: auto;
     position: relative;
     display: inline-block;
-    border-radius: 7px;
     overflow: hidden
 }
 
@@ -146,12 +145,10 @@ footer ul img {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
-
 .footer-text-list {
     margin-right: 3rem;
     margin-top: 20px;
 }
-
 footer .footer-text-list li {
     margin-top: 15px auto;
     display: inline-block;
@@ -161,7 +158,6 @@ footer .footer-text-list li {
     color: #232439;
     padding: 5px;
 }
-
 .email-link {
     color: #232439;
     font-weight: 600;
