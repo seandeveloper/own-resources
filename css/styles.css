@@ -57,6 +57,7 @@ MAIN CONTENT
   height: 300;
   margin: auto;
   position: relative;
+  display: inline-block;
 }
 .services .services-one span.text-content,
 .services-two span.text-content {
